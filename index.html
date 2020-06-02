@@ -122,8 +122,74 @@
                     <td>7</td> <!--Coluna 3-->
                 </tr>
         </table>
-        
 
+        <br>
+    <!--Formulários-->
+        <h3>Formulários Com Tags Básicas (Input Text and Password)</h3>
+        <form>
+            Login: Text<br>
+            <input type="text"/> <!--Entrada de Texto Normal(Visivel no front)-->
+            <br>
+            Senha: Password <br>
+            <input type="password"/> <!--Entrada de Senha(Não visível no front)-->
+        </form>
+        
+        <br>
+        <h3>Formulários Com Tags Adicionais</h3>
+        <h4>RadioButton</h4>
+        <form>
+            RadioButton: <br>
+            <input type="radio" name="Sexo"/> Masculino<br>
+            <input type="radio" name="Sexo"/> Feminino<br> 
+            <!--OBS: Se não colocar o nome igual nos dois atributos
+            Radio, permitirá escolher mais de uma opção, como
+            Masculino e Feminino por exemplo-->   
+        </form>
+        <br>
+        <h4>Button & Submit</h4>
+        <form>
+            Button: <br>
+            <input type="button" name="Buttom" value="Buttom"/><br>
+            <br>
+            Submit: <br>
+            <input type="submit" name="Submit" value="Submit"/><br> 
+            <!--OBS: O Buttom é um botão simples de ação, já o 
+            Submit é um botão que permite que os dados enviados 
+            sejam recuperados, por conta disso todos os valores enviados
+            devem ter o campo name, para que possam sem recuperados 
+            futuramente -->   
+        </form>
+        <br>
+        <h4>CheckBox</h4>
+        <form>
+            Cria uma Caixa de Seleção: <br>
+            <input type="checkbox" name="esporte"/> Futebol <br>
+            <input type="checkbox" name="esporte"/> Basquete <br>
+            <input type="checkbox" name="esporte"/> Natação <br>
+            <input type="checkbox" name="esporte"/> Ciclismo <br>
+            <br>
+            Submit: <br>
+            <input type="submit" name="Submit" value="Submit"/><br>  
+        </form>
+        <br>
+        <h4>Select</h4>
+        <form>
+            Selecione o Estado de Origem: <br>
+            <select name="Estado">
+                <option>SP</option>
+                <option>MG</option>
+                <option>ES</option>
+                <option>RJ</option>
+            </select>
+        </form>
+        <br>
+        <h4>TextArea </h4>
+        <form>
+            Digite aqui suas sugestões: <br>
+            <textarea>
+
+            </textarea>
+        </form>
 
     </body>
 </html>
