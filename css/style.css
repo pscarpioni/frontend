@@ -26,3 +26,13 @@
 	font-family: 'Mitr', sans-serif;
 	color: #751919;
 }
+
+.marcador{
+	background: #fe9d9d;
+	border: 1px solid #f94646;
+}
+
+.marcador2{
+	background-color: #111111;
+	color: #751919;
+}

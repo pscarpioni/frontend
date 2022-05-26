@@ -217,6 +217,88 @@
         <br>
         <!-- Botão com Bootstrap -->
         <button class="btn btn-primary" > Botão com Bootstrap </button>
+        <br>
+        <!-- Aplicação do Bootstrap -->
+        <div class="container marcador">
+            <h1>Uso do Bootstrap</h1>
+            <br>
+            <!-- Uso do Sistemas de Grid -->
+            <div class="row marcador">
+                <!-- Uso de colunas do Grid -->
+                <div class="col-md-3">
+                    <h3>Grid 3</h3>
+                </div>
+                <div class="col-md-9 marcador2">
+                    <h3> Grid 9</h3>
+                </div>
+                <div class="col-md-6">
+                    <h3>Grid 6</h3>
+                </div>
+                <div class="col-md-6 marcador2">
+                    <h3> Grid 6</h3>
+                </div>
+                <div class="col-md-8">
+                    <h3>Grid 8</h3>
+                </div>
+                <div class="col-md-4 marcador2">
+                    <h3> Grid 4</h3>
+                </div>    
+            </div>
+        </div>
+        <!-- Uso de formulário com o bootstrap -->
+        <div class="container">
+            <div>
+                <h1> Formulário com Bootstrap</h1>
+                <hr/>
+            </div>
+            <div class="row">
+                <!-- Formulário de cadastro -->
+                <div class="col-sm-8">
+                    <h3>Cadastre-se</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" id="nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="E-mail" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="senha">Senha</label>
+                            <input type="password" class="form-control" id="senha">
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> Aceito os termos do serviço
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="opcoes"> PHP
+                            </label>
+                            <label>
+                                <input type="radio" name="opcoes"> JAVA
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary"> Cadastrar</button>
+                    </form>
+                </div>
+                <!-- Formulário de login -->
+                <div class="col-sm-4">
+                    <h3>Login</h3>
+                    <div class="form-group">
+                        <input type="email" id="email" class="form-control" placeholder="Digite seu email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" id="senha" class="form-control" placeholder="Digite sua senha">
+                    </div>
+                    <button class="btn btn-primary" type="submit"> Logar</button>
+                </div>
+            </div>
+            
+        </div>
+
 
     </body>
 </html>
