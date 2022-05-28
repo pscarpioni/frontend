@@ -1,7 +1,6 @@
 /*Aplicação de formatação de um bloco(div)*/
 #menu{
 	font-family: 'Permanent Marker', cursive;
-	text-align: center;
 	color: #000000;
 	font-size: 30px;
 	border: 1px solid blueviolet;
@@ -36,3 +35,7 @@
 	background-color: #111111;
 	color: #751919;
 }
+.fonte1{
+	font-family: 'Open Sans', sans-serif;
+}
+
