@@ -385,7 +385,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <h3>Imagem responsiva</h3>
-                    <img src="img/uvas.png" class="img-responsive img-circle">
+                    <img src="img/uvas.png" class="img-responsive">
                 </div>
                 <div class="col-sm-6">
                     <h3>Imagem não responsiva</h3>
@@ -401,5 +401,38 @@
                 </div>
             </div>    
         </div>
+        <!-- Barra de Navegação com Bootstrap -->
+        <h2>Barra de Navegação</h2>
+        <hr/>
+        <br>
+        <nav class="navbar navbar-defaul">
+            <div class="container">
+                <div class=" navbar navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#data-navegacao" >
+                        <span class="sr-only"> Alternar Menu</span> 
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                    </button>
+                    <br>
+                    <a href="#" class="navbar-brand">Logo</a>   
+                </div>
+                <div class="collapse navbar-collapse" id="barra-navegacao">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li> <a href="#">Home</a></li>
+                        <li> <a href="#">Empresa</a></li>
+                        <li> <a href="#">Clientes</a></li>
+                        <li> <a href="#">Produtos</a></li>
+                        <li class="dropdown">
+                            <a href="#"class="dropdown-toggle" data-toggle="dropdown">Minha Conta <span class="caret"></span> </a>
+                            <ul class="dropdown-menu">
+                                <li> <a href="#">Editar</a></li>
+                                <li> <a href="#">Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </body>
 </html>
